@@ -12,3 +12,5 @@ Durante l'esecuzione `ctrl+P`, catturato dalla console di xv6, mostra la lista d
 Invece, `ctrl+A`, seguito da:
 - `c`, (dis)attiva la console di QEMU. Dalla console potete uscire dall'emulazione con `q` o, per esempio, vedere la tabella delle pagine con `info mem`.
 - `x`, termina QEmu. Poi, per uscire dalla bash/docker, `ctrl-D` (come sempre).
+
+Per connettere un'altra shell allo stesso container: `sudo docker exec -ti xv6 bash`
