@@ -4,7 +4,7 @@ TLDR:
 
 ```
 git clone https://github.com/zxgio/xv6-rv-seti.git
-sudo docker run -ti --rm -v $(pwd)/xv6-rv-seti:/home/rv-docker/xv6 zxgio/xv6-riscv-tools
+sudo docker run --name xv6 -ti --rm -v $(pwd)/xv6-rv-seti:/home/rv-docker/xv6 zxgio/xv6-riscv-tools
 cd xv6
 make qemu
 ```
